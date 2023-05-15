@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">adaptadores</string>
+    <string name="tv_nombre">Cantante</string>
+    <string name="tv_ultimo_Mensaje">Nominado a premios 2023</string>
+    <string name="tv_hora">12:25pm</string>
+    <string name="nombre">Cantante</string>
+    <string name="nombrePersona">Hector Lavoe</string>
+
+    <string name="telefono">Canciones grabadas</string>
+    <string name="numeroTelefono">257</string>
+    <string name="pais">Pais</string>
+    <string name="nombrePais">Puerto rico</string>
+    <string name="titulo">Reconocimiento</string>
+    <string name="textoTitulo">Legado en la salsa</string>
+</resources>
