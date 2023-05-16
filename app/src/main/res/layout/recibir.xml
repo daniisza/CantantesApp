@@ -44,6 +44,37 @@
         </TextView>
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="cuerpo del correo"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textoMensaje"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:text="@string/nombrePersona"
+            android:textColor="@color/purple_200"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </LinearLayout>
     <LinearLayout
         android:layout_marginTop="20dp"
         android:orientation="vertical"
