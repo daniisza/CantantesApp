@@ -11,7 +11,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class recibir extends AppCompatActivity {
 
     String nombre, titulo, mensaje, hora, telefono, pais;
-    TextView textoNombre, textoTitulo,  textoTelefono, textoPais;
+    TextView textoNombre, textoTitulo,  textoTelefono, textoPais, textoMsm;
     int imagen;
     CircleImageView image;
 
@@ -19,9 +19,10 @@ public class recibir extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.recibir);
+
         textoNombre = findViewById(R.id.textoNombre);
         textoTitulo = findViewById(R.id.textoTitulo);
-
+        textoMsm = findViewById(R.id.textoMensaje);
         textoTelefono = findViewById(R.id.telefono);
         textoPais = findViewById(R.id.pais);
 
@@ -43,6 +44,7 @@ public class recibir extends AppCompatActivity {
             textoTelefono.setText(telefono);
             textoTitulo.setText(titulo);
             image.setImageResource(imagen);
+            textoMsm.setText(mensaje);
         }
     }
 }

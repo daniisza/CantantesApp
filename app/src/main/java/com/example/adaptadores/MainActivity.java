@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 "Fallecimiento: 29 de junio de 1993", "Fallecimiento: 9 de agosto de 1998", "Fallecimiento: 26 de diciembre de 2020", " Nació en Salinas, Puerto Rico", "Es un cantante estadounidense de origen puertorriqueño de salsa", "Realmente comenzó su carrera profesional en la música cuando se convirtió en la primera voz de Pedro Conga y su Orquesta Internacional.", "Un reconocido artista de salsa cristiana"
         };
         String[] mensajes = {
-                "Hola, por favor enviar la información...", "Tienes una nueva notificación", "Intentaste acceder a tu cuenta...", "Por referir a un amigo reclama 5000", "Adquiere tu nuevo vehículo", "Que quieres comer hoy?", "Nuevo mensaje de usuario..."
+                "Cantante reconocido, ...", "Tienes una nueva notificación", "40 Años de trayectoria...", "Concierto en Republica domnicana", "Entrar a clase grupal", "Entrevista el dia 28", "Nuevo mensaje de usuario..."
         };
 
         String[] horaUltimoMensaje ={
